@@ -214,7 +214,7 @@ gulp.task('remote:css', function () {
 // Compiles all dependencies from source.
 gulp.task('remote:compile', [
     'copy:files',
-    'copy:images', // copies images
+    'copy:images', // copies imagez
     'remote:js-lib',
     'remote:js-app',
     'remote:css'
